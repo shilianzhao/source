@@ -188,6 +188,7 @@ void I2C_SLAVE_IRQHandler(void)
  */
 int main(void)
 {
+	// git for first time
     i2c_slave_config_t slaveConfig;
 
     i2c_master_config_t masterConfig;
